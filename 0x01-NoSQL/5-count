@@ -1,0 +1,2 @@
+// Counting collections
+db.runCommand({count:"school"})
