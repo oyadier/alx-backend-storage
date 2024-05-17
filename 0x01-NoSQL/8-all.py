@@ -9,4 +9,3 @@ def list_all(mongo_collection):
     if docs == 0:
         return []
     return mongo_collection.find({})
-
